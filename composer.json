@@ -1,0 +1,19 @@
+{
+    "name": "kurious/kurious",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gabrielmansour/speciphy"
+        }
+    ],
+    "require-dev": {
+        "php": ">=5.3.2",
+        "esperance/esperance": "dev-master",
+        "speciphy/speciphy": "@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}
